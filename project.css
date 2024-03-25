@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Webpage</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    p {
+      color: #666;
+      font-size: 18px;
+    }
+    .btn-custom {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+    }
+    .btn-custom:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Welcome to My Website</h1>
+  <p>This is a simple webpage styled with CSS.</p>
+  <button class="btn btn-custom">Click me!</button>
+</div>
+
+</body>
+</html>
